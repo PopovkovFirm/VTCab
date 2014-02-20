@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistryActivity" >
+
+	<LinearLayout
+    	android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+		<!-- Nom de famille -->
+
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:paddingTop="@dimen/normal_padding"
+	        android:text="@string/lastName"
+	        android:textSize="@dimen/normal_text_size"
+	        android:textColor="@color/black_color" />
+
+	    <EditText
+	        android:id="@+id/user_lastName"
+	        android:layout_width="@dimen/large_padding"
+	        android:layout_height="wrap_content"
+	        android:inputType="text"
+	        android:layout_gravity="center" />
+	
+		<!-- Prénom -->
+	
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:paddingTop="@dimen/normal_padding"
+	        android:textSize="@dimen/normal_text_size"
+	        android:text="@string/firstName"
+	        android:textColor="@color/black_color" />
+	
+	    <EditText
+	        android:id="@+id/user_firstName"
+	        android:layout_width="@dimen/large_padding"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:inputType="text" />
+	
+		<!-- Email -->
+	
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:paddingTop="@dimen/normal_padding"
+	        android:textSize="@dimen/normal_text_size"
+	        android:text="@string/email"
+	        android:textColor="@color/black_color" />
+	
+	    <EditText
+	        android:id="@+id/user_email"
+	        android:layout_width="@dimen/large_padding"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:inputType="textEmailAddress" />
+		
+		<!-- Mot de passe -->
+		
+		<TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:paddingTop="@dimen/normal_padding"
+	        android:textSize="@dimen/normal_text_size"
+	        android:text="@string/password"
+	        android:textColor="@color/black_color" />
+	
+	    <EditText
+	        android:id="@+id/user_password_form"
+	        android:layout_width="@dimen/large_padding"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:inputType="textPassword" />
+		
+		
+		<!-- Confirmation du mot de passe -->
+	    
+	        <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:paddingTop="@dimen/normal_padding"
+	        android:textSize="@dimen/normal_text_size"
+	        android:text="@string/passwordConfirmation"
+	        android:textColor="@color/black_color" />
+	
+	    <EditText
+	        android:id="@+id/user_password_form_confirmation"
+	        android:layout_width="@dimen/large_padding"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:inputType="textPassword" />
+		
+	    
+	    <!-- Bouton "envoyer" -->
+	    
+	    <Button
+	        android:id="@+id/submit_form"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_marginTop="@dimen/normal_padding"
+	        android:text="@string/submit_form" />
+	
+	
+	</LinearLayout>
+</RelativeLayout>

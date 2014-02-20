@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">LeBonCab</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="create_account">Créer un compte</string>
+    <string name="email">Adresse email</string>
+    <string name="password">Mot de passe</string>
+    <string name="connect">Se connecter</string>
+    <string name="title_activity_login_display">LoginDisplayActivity</string>
+    <string name="title_activity_registry_display">RegistryActivity</string>   
+	<string name="hint_mail">"Ici : L'adresse email de l'utilisateur"</string>
+	<string name="hint_pass">"Ici : Le mot de passe de l'utilisateur"</string>
+	<string name="email_format_error">"Le champs email ne correspond pas au format d'une adresse mail"</string>
+	<string name="email_or_password_empty">"L'adresse email et mot de passe sont obligatoires"</string>
+	<string name="lastName">Nom</string>
+	<string name="firstName">Prénom</string>
+	<string name="passwordConfirmation">"Confirmation du mot de passe"</string>
+	<string name="submit_form">"Envoyer"</string>
+	
+</resources>
+
